@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #1c1c1c; /* Super dark gray background */
+    margin: 0;
+}
+
+.game-container {
+    text-align: center;
+    background-color: #d3d3d3; /* Light gray background */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.board {
+    margin: 20px 0;
+}
+
+.guess-row {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.guess-box {
+    width: 40px;
+    height: 40px;
+    border: 2px solid black; /* Black outlines */
+    margin: 0 5px;
+    font-size: 24px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%; /* Make the boxes circular */
+}
+
+.controls {
+    margin: 20px 0;
+}
+
+#submit-guess {
+    background-color: #006400; /* Dark green background */
+    color: white; /* White text */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px; /* Pill-shaped button */
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#submit-guess:hover {
+    background-color: #004d00; /* Darker green on hover */
+}
+
+#restart-game {
+    background-color: #ff4500; /* Orange background */
+    color: white; /* White text */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px; /* Pill-shaped button */
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#restart-game:hover {
+    background-color: #cc3700; /* Darker orange on hover */
+}
+
+.result {
+    margin: 20px 0;
+    font-weight: bold;
+}
